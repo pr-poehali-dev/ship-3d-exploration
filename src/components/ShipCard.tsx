@@ -10,9 +10,9 @@ interface ShipCardProps {
 
 const ShipCard = ({ ship, onClick }: ShipCardProps) => {
   const eraLabels = {
-    sail: 'Парусный флот',
-    ironclad: 'Броненосцы',
-    modern: 'Современный'
+    ancient: 'Древняя Русь',
+    medieval: 'Средневековье',
+    prePetrine: 'До Петра I'
   };
 
   return (

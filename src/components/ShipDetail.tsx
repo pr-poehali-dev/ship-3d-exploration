@@ -15,9 +15,9 @@ const ShipDetail = ({ ship, open, onClose }: ShipDetailProps) => {
   if (!ship) return null;
 
   const eraLabels = {
-    sail: 'Парусный флот',
-    ironclad: 'Броненосцы',
-    modern: 'Современный'
+    ancient: 'Древняя Русь',
+    medieval: 'Средневековье',
+    prePetrine: 'До Петра I'
   };
 
   return (
